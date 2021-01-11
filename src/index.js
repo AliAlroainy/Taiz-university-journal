@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './fortawesome';
 import './index.css';
+import './style/main.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
