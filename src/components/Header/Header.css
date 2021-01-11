@@ -59,7 +59,11 @@ li {
   padding-bottom: 6px;
 }
 .main-nav li.active {
-  border-bottom: 2px solid burlywood;
+  border-bottom: 4px solid burlywood;
+}
+.main-nav > li:hover {
+  border-bottom: 4px solid burlywood;
+  transition: all 0.3s ease;
 }
 .sub-menu-bar {
   background-color: #212b36;
@@ -68,6 +72,7 @@ li {
   z-index: 1;
   width: auto;
   margin: 10px 0px;
+  transition: all 0.2s ease-in-out;
 }
 
 .sub-menu-bar li {
@@ -76,6 +81,7 @@ li {
 }
 .sub-menu-bar li:hover {
   background-color: #394552;
+  transition: all 0.2s ease-in-out;
 }
 .search {
   display: flex;
@@ -106,12 +112,17 @@ li {
   background-color: transparent;
   color: white;
 }
+
 .search-filed input {
   background-color: transparent;
   border: none;
   width: 100%;
   height: 100%;
   padding: 4px;
+}
+.search-filed input:focus {
+  border: none;
+  color: white;
 }
 .icon {
   font-size: 1.2rem;

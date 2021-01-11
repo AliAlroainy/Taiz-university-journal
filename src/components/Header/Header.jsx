@@ -1,6 +1,15 @@
 import React , {useState} from 'react'
 import {NavLink} from 'react-router-dom';
-import {} from '../../routes' ;
+import {
+    HOME_ROUTE ,
+    ABOUT_JOURNAL_ROUTE,
+    EDITORIAL_ROUTE ,
+    PRIVACY_STATEMENT_ROUTE,
+    INSTITUTIONAL_PARTNERSHIPS,
+    SUBMISSION_ROUTE,
+    RESEARCH_ROUTE,
+    CONTACT_US_ROUTE
+} from '../../routes' ;
 import './Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export default function Header() {
@@ -19,7 +28,7 @@ export default function Header() {
         <div className='navbar'>
             <div className='nav'>
                 <div className='upper-view'>
-                    <NavLink to='/' >Contact us</NavLink>
+                    <NavLink to={CONTACT_US_ROUTE} >Contact us</NavLink>
                     <ul className='socials'>
                         <li><a href="#"><FontAwesomeIcon icon={['fab', 'twitter']} /></a></li>
                         <li><a href="#"><FontAwesomeIcon icon={['fab', 'facebook']} /></a></li>
@@ -34,7 +43,7 @@ export default function Header() {
                 </div>
                 <div className='buttom-view'>
                     <ul className='main-nav'>
-                        <li className='active'><NavLink to='/'>Home</NavLink></li>
+                        <li className='active'><NavLink to={HOME_ROUTE}>Home</NavLink></li>
                         <li className ='' onClick={handleClick}>
                             <NavLink to ='/'>Journay Information </NavLink>
                             <FontAwesomeIcon className = 'icon' icon={["fas" , "angle-down"]} />
@@ -42,16 +51,16 @@ export default function Header() {
                                 expand &&
                                 <nav className='sub-menu-bar'>
                                     <ul >
-                                        <li><NavLink to='/'>About Journal</NavLink></li>
-                                        <li><NavLink to='/'>Editorial Team</NavLink></li>
-                                        <li><NavLink to='/'>Privacy Statement</NavLink></li>
-                                        <li><NavLink to='/'>Institutional partnerships</NavLink></li>
+                                        <li><NavLink to={ABOUT_JOURNAL_ROUTE}>About Journal</NavLink></li>
+                                        <li><NavLink to={EDITORIAL_ROUTE}>Editorial Team</NavLink></li>
+                                        <li><NavLink to={PRIVACY_STATEMENT_ROUTE}>Privacy Statement</NavLink></li>
+                                        <li><NavLink to={INSTITUTIONAL_PARTNERSHIPS}>Institutional partnerships</NavLink></li>
                                     </ul>
                                 </nav>
                             }
                         </li>
-                        <li><NavLink to='/'>Submission</NavLink></li>
-                        <li><NavLink to='/'>Indexing</NavLink></li>
+                        <li><NavLink to={SUBMISSION_ROUTE}>Submission</NavLink></li>
+                        <li><NavLink to={RESEARCH_ROUTE}>Research</NavLink></li>
                     </ul>                    
                 </div>
             </div>
