@@ -8,8 +8,8 @@ export default function ContactUs() {
     return (
         <div className='mt-16 sm:p-8 md:p-16'>
             <div className='md:flex '>
-                <div className='left-view sm:w-full md:w-3/4'>
-                    <h2 className="text-3xl mb-8">Contact Us</h2>
+                <div className='left-view sm:w-full md:w-3/4 lg:mx-20'>
+                    <h2 className="text-3xl mb-8 ml-4">Contact Us</h2>
                     <div className='form sm:mx-5'>
                         <form className="w-full max-w-lg  ">
                             <div className="flex flex-wrap -mx-3 mb-6">
@@ -52,7 +52,7 @@ export default function ContactUs() {
                             </div>
                         </form>
                     </div>
-                    <div className="more-details mt-16">
+                    <div className="more-details mt-16 ml-4">
                         <p className='text-lg'>Or you can contact us using:</p>
                         <p className="text-gray-500">Email@gmail.com</p>
                     </div>
