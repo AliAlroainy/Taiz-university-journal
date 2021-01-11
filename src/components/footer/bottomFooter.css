@@ -1,0 +1,11 @@
+.f {
+    width: 100%;
+    bottom: 0;
+    height: 30px;
+    background-color: #C4C4C4;
+    color: #333;
+    position: fixed;
+    padding-top: 10px;
+    align-items: center;
+    text-align: center;
+}

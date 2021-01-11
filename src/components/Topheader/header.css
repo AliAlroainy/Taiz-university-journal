@@ -1,0 +1,59 @@
+  
+.Topheadr {
+
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #F5F6F6;
+  
+ 
+}
+
+.Topheadr a {
+  text-align: center;
+  float: left;
+  color: #414242;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.Topheadr a:hover{
+  color: #a1a5a5;
+  transition: color 0.2s;
+}
+
+.App-logo {
+  position: absolute;
+  top: 0;
+  height: 3rem; 
+  
+
+}
+
+.Topheadr a.titel{
+
+  font-size: 20px ; 
+  font-weight: bold;
+  color: #414242;
+  padding-left: 25px;
+
+  top: 0%;
+
+}
+
+
+
+@media screen and (min-width: 450px) {
+ 
+}
+
+@media only screen and (max-width: 500px) {
+      .titel{
+
+    font-size: 24px ;  }
+ 
+}
