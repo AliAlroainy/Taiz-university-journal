@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+<<<<<<< Updated upstream
 import './fortawesome';
 import './index.css';
+=======
+import './style/main.css';
+>>>>>>> Stashed changes
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

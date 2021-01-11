@@ -8,6 +8,7 @@ import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
+<<<<<<< Updated upstream
     
   <BrowserRouter>
     <div  >
@@ -19,6 +20,9 @@ function App() {
   </BrowserRouter>       
     
 
+=======
+    <></>
+>>>>>>> Stashed changes
   );
 }
 
