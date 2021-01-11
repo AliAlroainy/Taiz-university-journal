@@ -1,19 +1,9 @@
 import './App.css';
-import logo from './T.svg';
-import Hi from './hi'
-//import Said from './main/said';
-import Header from './components/Header';
-import { BrowserRouter , Link, Route  } from 'react-router-dom';
-import Bye from './bye';
-import Footer from './main/footer'
+import UpperHeader from './components/Topheader/header';
+import Footer from './components/footer/footer'
+import Bottomfooter from './components/footer/bottomFooter';
+import MainHeader from './components/Header';
 
-
-
-// import nav pages 
-import Editorial from './pages/nav/Editorial';
-import AuthorGuideline from './pages/nav/AuthorGuideline';
-import PaperSubmission from './pages/nav/PaperSubmission';
-import Home from './pages/Home';
 
 
 function App() {
@@ -21,8 +11,10 @@ function App() {
     
   <BrowserRouter>
     <div  >
-       <Header/>
+       <UpperHeader/>
+       <MainHeader/>
        <Footer/>
+       <Bottomfooter/>
     </div>
   </BrowserRouter>       
     
