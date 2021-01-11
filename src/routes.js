@@ -1,0 +1,9 @@
+export const HOME_ROUTE = '/';
+export const ABOUT_JOURNAL_ROUTE = '/aboutjournal';
+export const SUBMISSION_ROUTE = '/submission';
+export const RESEARCH_ROUTE = '/research';
+export const INDEXING_ROUTE = '/indexing';
+export const EDITORIAL_ROUTE = '/EditorialTeam';
+export const PRIVACY_STATEMENT_ROUTE = '/privacyStatemant';
+export const INSTITUTIONAL_PARTNERSHIPS = '/institutionalPartnerships';
+export const CONTACT_US_ROUTE = '/contactUs';

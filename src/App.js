@@ -1,19 +1,23 @@
 import './App.css';
-import Header from './components/Topheader/header';
+import UpperHeader from './components/Topheader/header';
 import Footer from './components/footer/footer'
 import Bottomfooter from './components/footer/bottomFooter';
+import MainHeader from './components/Header';
+
 
 
 function App() {
   return (
     
-       
+  <BrowserRouter>
     <div  >
-       <Header/>
+       <UpperHeader/>
+       <MainHeader/>
        <Footer/>
        <Bottomfooter/>
     </div>
- 
+  </BrowserRouter>       
+    
 
   );
 }
