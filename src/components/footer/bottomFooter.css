@@ -1,10 +1,10 @@
 .f {
     width: 100%;
-    bottom: 0;
+    bottom: 0px;
     height: 30px;
-    background-color: #C4C4C4;
-    color: #333;
-    position: fixed;
+    background-color: #212b36;
+    color: rgb(124, 116, 116);
+    position: relative;
     padding-top: 10px;
     align-items: center;
     text-align: center;

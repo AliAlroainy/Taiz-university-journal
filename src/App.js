@@ -3,8 +3,9 @@ import UpperHeader from './components/Topheader/header';
 import Footer from './components/footer/footer'
 import Bottomfooter from './components/footer/bottomFooter';
 import MainHeader from './components/Header';
+import Home from './pages/home/Home';
+import Newfooter from './components/newfooter';      
 import { BrowserRouter , Route , Switch , Redirect} from "react-router-dom";
-import Home from './containers/Home'
 import ContactUs from './containers/ContactUs'
 import Submission from './containers/Submission'
 import {
@@ -25,8 +26,7 @@ function App() {
           <div>
             <Containers/>
           </div>
-        {/* <Footer/>
-        <Bottomfooter/> */}
+        <Newfooter/>
       </div>
     </BrowserRouter>    
   );

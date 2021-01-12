@@ -1,0 +1,16 @@
+.home {
+    width: 100%;
+    float: auto;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+
+    @media screen and  (max-width: 800px) {
+        .home{
+            width: 100%;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+      }
