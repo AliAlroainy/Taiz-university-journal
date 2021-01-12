@@ -48,5 +48,17 @@
     "autoprefixer": "^9.8.6",
     "postcss": "^8.2.4",
     "postcss-cli": "^8.3.1"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliAlroainy/Taiz-university-journal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AliAlroainy/Taiz-university-journal/issues"
+  },
+  "homepage": "https://github.com/AliAlroainy/Taiz-university-journal#readme"
 }
